@@ -1,0 +1,26 @@
+.navbtn {
+    display: inline-block;
+    padding: 0.3% 1% 0.3% 1%;
+    margin: 0% 1% 0% 0%;
+    border-radius: 25px;
+    background-color: rgb(13, 134, 158);
+}
+
+.navbtncontent {
+    margin: 0;
+}
+
+.navlink {
+    text-decoration: none;
+    color: rgb(255, 206, 132);
+}
+
+.navlink:hover {
+    color: rgb(148, 115, 77);
+}
+
+.navbar {
+    background-color: rgb(20, 121, 141);
+    padding: 0.5%;
+    border-radius: 25px;
+}
