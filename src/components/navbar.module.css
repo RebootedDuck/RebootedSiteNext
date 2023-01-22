@@ -10,6 +10,12 @@
     margin: 0;
 }
 
+.navbtnsecondary {
+    display: inline-block;
+    font-size: 70%;
+    font-weight: 900;
+}
+
 .navlink {
     text-decoration: none;
     color: rgb(255, 206, 132);

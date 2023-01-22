@@ -1,12 +1,19 @@
 import styles from '../components/navbar.module.css'
 import Link from 'next/link';
+import { Roboto } from '@next/font/google'
+
+const robotohard = Roboto({ 
+    weight: '500',
+    subsets: ['latin'],
+   })
+
 
 export default function NavBar({ children }) {
     return (
         <>  
             <header className={styles.navbar}>
                 <div className={styles.navbtn}>
-                    <h1 className={styles.navbtncontent}><Link className={styles.navlink} href="/">RebooteDuck</Link></h1>
+                    <h1 className={styles.navbtncontent}><Link className={styles.navlink} href="/">RebooteDuck<div className={[styles.navbtnsecondary, robotohard.className].join(" ")}>.DEV</div></Link></h1>
                 </div>
                 <div className={styles.navbtn}>
                     <h1 className={styles.navbtncontent}><a className={styles.navlink} href="https://blog.rebooteduck.dev">Blog</a></h1>

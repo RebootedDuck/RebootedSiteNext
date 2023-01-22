@@ -1,0 +1,12 @@
+.listelement {
+    color: rgb(255, 206, 132);
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 206, 132);
+}
+
+.link:hover {
+    color: rgb(148, 115, 77);
+}
