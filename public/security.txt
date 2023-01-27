@@ -1,0 +1,4 @@
+Contact: mailto:apersoncalledaniel@protonmail.com
+Expires: 2025-01-27T00:00:00.000Z
+Preferred-Languages: en, de
+Canonical: https://rebooteduck.dev/security.txt

@@ -7,6 +7,8 @@ const roboto = Roboto({
   subsets: ['latin'],
  })
 
+console.log("Website of @rebooteduck <3")
+
 export default function App({ Component, pageProps }) {
   return (
     <main className={roboto.className}>

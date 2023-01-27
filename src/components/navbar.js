@@ -3,10 +3,9 @@ import Link from 'next/link';
 import { Roboto } from '@next/font/google'
 
 const robotohard = Roboto({ 
-    weight: '500',
+    weight: '300',
     subsets: ['latin'],
    })
-
 
 export default function NavBar({ children }) {
     return (
@@ -22,8 +21,18 @@ export default function NavBar({ children }) {
                     <h1 className={styles.navbtncontent}><Link href="/transredditarchive" className={styles.navlink}>RTA</Link></h1>
                 </div>
                 <div className={styles.navbtn}>
-                    <h1 className={styles.navbtncontent}><a href="https://oxfordpride.uk" className={styles.navlink}>Oxford Pride</a></h1>
+                    <h1 className={styles.navbtncontent}><a href="https://oxfordpride.uk" className={[styles.rainbowtext, styles.navlink].join(" ")}>Oxford Pride</a></h1>
                 </div>
+                <div className={styles.navbtn}>
+                    <h1 className={styles.navbtncontent}><Link href="/internals" className={styles.navlink}>Internals</Link></h1>
+                </div>
+                <div className={styles.navbtn}>
+                    <h1 className={styles.navbtncontent}><a href="https://github.com/RebootedDuck" className={styles.navlink}>Github</a></h1>
+                </div>
+                <div className={styles.navbtn}>
+                    <h1 className={styles.navbtncontent}><Link href="/software" className={styles.navlink}>Software</Link></h1>
+                </div>
+
             </header>
         </>
     )

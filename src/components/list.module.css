@@ -8,5 +8,7 @@
 }
 
 .link:hover {
+    text-decoration: underline wavy;
+    text-underline-offset: 8px;
     color: rgb(148, 115, 77);
 }
