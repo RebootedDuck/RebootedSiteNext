@@ -1,5 +1,5 @@
 import listyles from '../components/list.module.css'
-import Head from 'next/Head'
+import Head from 'next/head'
 import generalstyles from '../components/general.module.css'
 
 export default function transredditarchive() {

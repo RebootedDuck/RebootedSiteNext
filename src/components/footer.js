@@ -12,7 +12,7 @@ export default function Footer({ children }) {
         <>  
             <footer className={styles.footbar}>
                 <div className={styles.footbtn}>
-                    <h1 className={styles.footbtncontent}>Ducks</h1>
+                    <h1 className={styles.footbtncontent}><a className={styles.footlink} href="https://www.google.com/search?q=ducks&tbm=isch">Ducks</a></h1>
                 </div>
             </footer>
         </>
