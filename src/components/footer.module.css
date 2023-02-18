@@ -1,38 +1,37 @@
 .footbtn {
-    display: inline-block;
-    padding: 0.3% 1% 0.3% 1%;
-    margin: 0% 1% 0% 0%;
-    border-radius: 25px;
-    background-color: rgb(13, 134, 158);
+  display: inline-block;
+  padding: 0.3% 1% 0.3% 1%;
+  margin: 0% 1% 0% 0%;
+  border-radius: 25px;
+  background-color: rgb(13, 134, 158);
 }
 
 .footbtncontent {
-    margin: 0;
+  margin: 0;
 }
 
 .footbtnsecondary {
-    display: inline-block;
-    font-size: 70%;
-    font-weight: 900;
+  display: inline-block;
+  font-size: 70%;
+  font-weight: 900;
 }
 
 .footlink {
-    text-decoration: none;
-    color: rgb(255, 206, 132);
+  text-decoration: none;
+  color: rgb(255, 206, 132);
 }
 
 .footlink:hover {
-    color: rgb(148, 115, 77);
+  color: rgb(148, 115, 77);
 }
 
 .footbar {
-    background-color: rgb(20, 121, 141);
-    padding: 0.5%;
-    border-radius: 25px;
+  background-color: rgb(20, 121, 141);
+  padding: 0.5%;
+  border-radius: 25px;
 
-    position: fixed;
-    left: 1;
-    bottom: 0.6em;
-    width: 98%;
+  position: fixed;
+  left: 1;
+  bottom: 0.6em;
+  width: 98%;
 }
-
