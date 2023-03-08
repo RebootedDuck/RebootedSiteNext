@@ -32,6 +32,7 @@ export default function NavBar({ children }) {
             </a>
           </h1>
         </div>
+        {/*
         <div className={styles.navbtn}>
           <h1 className={styles.navbtncontent}>
             <Link href="/transredditarchive" className={styles.navlink}>
@@ -39,6 +40,7 @@ export default function NavBar({ children }) {
             </Link>
           </h1>
         </div>
+         */}
         <div className={styles.navbtn}>
           <h1 className={styles.navbtncontent}>
             <Link href="/software" className={styles.navlink}>
