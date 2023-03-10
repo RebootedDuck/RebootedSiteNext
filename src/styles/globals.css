@@ -1,7 +1,11 @@
 body {
-    background-color: rgb(22, 105, 122);
+  background-color: rgb(22, 105, 122);
 }
 
-h1, h2, h3, h4, h5 {
-    color: rgb(255, 206, 132);
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(255, 206, 132);
 }
