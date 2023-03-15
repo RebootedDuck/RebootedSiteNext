@@ -16,7 +16,7 @@ export default function Home() {
           </Head>
         </div>
         <h2>
-          Hi I&apos;m RebooteDuck, I make things sometimes, I'll add them here
+          Hi I&apos;m RebooteDuck, I make things sometimes, I&apos;ll add them here
           at some point
         </h2>
       </div>
